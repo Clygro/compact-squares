@@ -1,0 +1,245 @@
+/**
+ * @name         Compact Squares
+ * @author       Clygro
+ * @description  Makes the UI more compact and less rounded. 
+ * @version      2.1.8.21
+ * @invite hEETQU6
+ */
+
+layout-2DM8Md {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 2px;
+    height: 38px;
+    padding: 0 4px;
+}
+
+.container-1r6BKw {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 0;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 32px;
+    padding: 0 4px;
+    font-size: 12px;
+    line-height: 20px;
+    cursor: default;
+    z-index: 2;
+    color: var(--text-normal);
+}
+
+.form-2fGMdU {
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: -4px;
+}
+
+.header-2V-4Sw {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 0 2px;
+    height: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 3;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    color: var(--header-primary);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+}
+
+.scrollableContainer-2NUZem {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: var(--channeltextarea-background);
+    max-height: 32px;
+    border-radius: 4px;
+    scrollbar-width: none;
+}
+
+.thin-1ybCId::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.mainContent-u_9PKf {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 0;
+    padding: 2px 0;
+    cursor: pointer;
+}
+
+.member-3-YXUe {
+    position: relative;
+    max-width: 240px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.members-1998pB {
+    width: 240px;
+    padding: 0 0 20px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: auto;
+}
+
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-left: 42px;
+}
+
+.avatar-1BDn8e {
+    position: absolute;
+    left: 6px;
+    margin-top: calc(4px - .125rem);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.headerTop-3vNv-a {
+    display: block;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 42px 4px 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.body-3HBlXn {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    min-height: 0;
+    padding: 0 4px 4px;
+}
+
+.inputDefault-_djjkz {
+    padding: 4px;
+    height: 32px;
+}
+
+.avatar-3uk_u9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.layout-2DM8Md {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 2px;
+    height: 34px;
+    padding: 0 8px;
+}
+
+.reactionInner-15NvIl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 2px 2px;
+}
+
+.sizeSmall-2cSMqn {
+    width: 50px;
+    height: 16px;
+    min-width: 50px;
+    min-height: 16px;
+}
+
+.scroller-1Bvpku {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0px 0 0;
+    background-color: var(--background-tertiary);
+    contain: layout size;
+}
+
+element.style {
+    overflow: scroll;
+    padding-right: 0px;
+}
+
+:root {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,sans-serif;
+    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","맑은 고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: Whitney,Hiragino Sans,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+* {
+    border-radius: 0px !important;
+}
